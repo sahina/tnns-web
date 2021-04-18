@@ -1,0 +1,34 @@
+= tnns-web
+
+Tennis news and videos.
+
+== Tech Stack
+
+- Java 11
+- Kotlin 1.4
+- Vertx.io 4
+
+== Building
+
+To launch your integration tests:
+
+Note: Run application with `./gradlew clean run` before running tests.
+
+```
+./gradlew test
+```
+
+To package your application:
+
+```
+./gradlew clean assemble
+```
+
+To run your application:
+
+```
+./gradlew clean run
+```
+
+
+
